@@ -1,5 +1,3 @@
 # phpstorm files
 /.idea
-# ignore dats store for mysql
-/docker/mysql/data/*
-!/docker/mysql/
+# for ignore datas store for mysql see file inside /data
