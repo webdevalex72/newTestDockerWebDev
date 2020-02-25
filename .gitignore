@@ -1,0 +1,2 @@
+# ignore dats store for mysql
+/docker/mysql/data
