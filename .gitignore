@@ -1,3 +1,5 @@
 # phpstorm files
 /.idea
 # for ignore datas store for mysql see file inside /data
+
+/vendor/

@@ -1,4 +1,6 @@
 <?php
+namespace MVC\Libs;
+
 class View{
     static public function render($path, Array $data=[]){
         extract($data);//разбиваем / преобразует асс массив по переменным

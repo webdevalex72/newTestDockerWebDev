@@ -1,4 +1,6 @@
 <?php
+namespace MVC\Libs;
+
 class TableBooks extends Tables{
     public function createTBody(){ 
         echo '<tbody>';       

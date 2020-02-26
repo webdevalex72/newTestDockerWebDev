@@ -1,4 +1,7 @@
 <?php
+namespace MVC\Controllers;
+use MVC\Libs\Controller;
+
 class BooksController extends Controller{
     function index(){
         $books = new Books();

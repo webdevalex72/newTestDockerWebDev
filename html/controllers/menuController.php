@@ -1,4 +1,7 @@
 <?php
+namespace MVC\Controllers;
+use MVC\Libs\Controller;
+
 class MenuController extends Controller{
     function index(){
         $menu = new Menu();

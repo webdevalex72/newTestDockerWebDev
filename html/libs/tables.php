@@ -1,4 +1,6 @@
 <?php
+namespace MVC\Libs;
+
 class Tables{
     //ПОМНИ! в классе наследнике "ручками" пишем теги  echo '<table>' и  echo '</table>';
     

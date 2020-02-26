@@ -1,4 +1,6 @@
 <?php
+namespace MVC\Libs;
+
 class TableMenu extends Tables{
     
     public function getHeader(){

@@ -1,4 +1,6 @@
 <?php
+namespace MVC\Widgets;
+
 class MenuWidget{
     static function show(){
         $menu = new Menu();

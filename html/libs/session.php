@@ -1,4 +1,6 @@
 <?php
+namespace MVC\Libs;
+
 class Session{
     static function start(){
         session_start(); // запускаем сессию

@@ -1,4 +1,6 @@
 <?php
+namespace MVC\Models;
+
 class Menu extends Model{
     
     function getAll(){

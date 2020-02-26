@@ -1,0 +1,19 @@
+{
+    "name": "alex/small-mvc",
+    "description": "test issue",
+    "authors": [
+        {
+            "name": "alex kh",
+            "email": "web.dev.alex72@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MVC\\Controllers\\" : "controllers",
+            "MVC\\Libs\\" : "libs",
+            "MVC\\Models\\" : "models",
+            "MVC\\Widgets\\" : "widgets"
+        }
+    }
+}

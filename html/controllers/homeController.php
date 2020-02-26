@@ -1,4 +1,9 @@
 <?php
+namespace MVC\Controllers;
+
+use MVC\Libs\Controller;
+use MVC\Libs\View;
+
 class HomeController extends Controller{
 	/*
 	public function __construct(){

@@ -1,4 +1,6 @@
 <?php
+namespace MVC\Libs;
+
 class Model{
     protected $connect;
     function __construct(){

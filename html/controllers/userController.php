@@ -1,4 +1,7 @@
 <?php
+namespace MVC\Controllers;
+use MVC\Libs\Controller;
+
 class UserController extends Controller{
 	public function index(){
 		$title = 'All Users';

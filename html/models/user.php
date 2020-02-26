@@ -1,4 +1,6 @@
 <?php
+namespace MVC\Models;
+
 //описать методы запросов к БД в зависимости от действия пользователя
 class User extends Model{
     function getAll(){

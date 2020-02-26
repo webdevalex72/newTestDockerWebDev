@@ -1,4 +1,6 @@
 <?php
+namespace MVC\Models;
+
 class Books extends Model{
     function getBooksLimit(){
         $res = $this->connect->prepare('SELECT id, name,price,category FROM books LIMIT 50');
